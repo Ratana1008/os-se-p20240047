@@ -1,0 +1,91 @@
+/home/ratana
+total 120
+drwxr-x--- 21 ratana ratana 4096 Mar 18 22:38 .
+drwxr-xr-x  3 root   root   4096 Mar 12 00:42 ..
+-rw-------  1 ratana ratana 8726 Mar 18 22:37 .bash_history
+-rw-r--r--  1 ratana ratana  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 ratana ratana 3771 Mar 31  2024 .bashrc
+drwx------ 12 ratana ratana 4096 Mar 15 23:42 .cache
+drwx------ 18 ratana ratana 4096 Mar 17 14:45 .config
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 13:16 Desktop
+drwxr-xr-x  3 ratana ratana 4096 Mar 15 23:44 Documents
+drwxrwxr-x  3 ratana ratana 4096 Mar 15 23:38 .dotnet
+drwxr-xr-x  3 ratana ratana 4096 Mar 15 22:01 Downloads
+drwxrwxr-x  8 ratana ratana 4096 Mar 17 12:10 .git
+-rw-rw-r--  1 ratana ratana   58 Mar 14 23:57 .gitconfig
+drwx------  2 ratana ratana 4096 Mar 15 01:34 .gnupg
+-rw-------  1 ratana ratana   20 Mar 14 23:57 .lesshst
+drwx------  4 ratana ratana 4096 Mar 12 00:46 .local
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Music
+drwxrwxr-x  4 ratana ratana 4096 Mar 18 22:40 os-se-p20240047
+drwxr-xr-x  3 ratana ratana 4096 Mar 12 00:55 Pictures
+drwx------  3 ratana ratana 4096 Mar 15 23:37 .pki
+-rw-r--r--  1 ratana ratana  807 Mar 31  2024 .profile
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Public
+drwx------  8 ratana ratana 4096 Mar 15 23:37 snap
+drwx------  2 ratana ratana 4096 Mar 17 13:23 .ssh
+-rw-r--r--  1 ratana ratana    0 Mar 12 00:47 .sudo_as_admin_successful
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Templates
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Videos
+-rw-------  1 ratana ratana  532 Mar 12 15:06 .viminfo
+drwxrwxr-x  4 ratana ratana 4096 Mar 15 23:37 .vscode
+total 120
+drwxr-x--- 21 ratana ratana 4096 Mar 18 22:38 .
+drwxr-xr-x  3 root   root   4096 Mar 12 00:42 ..
+-rw-------  1 ratana ratana 8726 Mar 18 22:37 .bash_history
+-rw-r--r--  1 ratana ratana  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 ratana ratana 3771 Mar 31  2024 .bashrc
+drwx------ 12 ratana ratana 4096 Mar 15 23:42 .cache
+drwx------ 18 ratana ratana 4096 Mar 17 14:45 .config
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 13:16 Desktop
+drwxr-xr-x  3 ratana ratana 4096 Mar 15 23:44 Documents
+drwxrwxr-x  3 ratana ratana 4096 Mar 15 23:38 .dotnet
+drwxr-xr-x  3 ratana ratana 4096 Mar 15 22:01 Downloads
+drwxrwxr-x  8 ratana ratana 4096 Mar 17 12:10 .git
+-rw-rw-r--  1 ratana ratana   58 Mar 14 23:57 .gitconfig
+drwx------  2 ratana ratana 4096 Mar 15 01:34 .gnupg
+-rw-------  1 ratana ratana   20 Mar 14 23:57 .lesshst
+drwx------  4 ratana ratana 4096 Mar 12 00:46 .local
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Music
+drwxrwxr-x  4 ratana ratana 4096 Mar 18 22:40 os-se-p20240047
+drwxr-xr-x  3 ratana ratana 4096 Mar 12 00:55 Pictures
+drwx------  3 ratana ratana 4096 Mar 15 23:37 .pki
+-rw-r--r--  1 ratana ratana  807 Mar 31  2024 .profile
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Public
+drwx------  8 ratana ratana 4096 Mar 15 23:37 snap
+drwx------  2 ratana ratana 4096 Mar 17 13:23 .ssh
+-rw-r--r--  1 ratana ratana    0 Mar 12 00:47 .sudo_as_admin_successful
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Templates
+drwxr-xr-x  2 ratana ratana 4096 Mar 12 00:46 Videos
+-rw-------  1 ratana ratana  532 Mar 12 15:06 .viminfo
+drwxrwxr-x  4 ratana ratana 4096 Mar 15 23:37 .vscode
+--- Root directory (/) ---
+/
+bin
+bin.usr-is-merged
+boot
+cdrom
+dev
+etc
+home
+lib
+lib64
+lib.usr-is-merged
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+sbin.usr-is-merged
+snap
+srv
+swap.img
+sys
+tmp
+usr
+var
+--- Back to home ---
+/home/ratana
