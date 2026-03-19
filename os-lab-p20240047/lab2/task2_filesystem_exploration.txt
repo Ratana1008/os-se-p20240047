@@ -1,0 +1,293 @@
+/
+total 3959908
+drwxr-xr-x  23 root root       4096 Mar 12 00:42 .
+drwxr-xr-x  23 root root       4096 Mar 12 00:42 ..
+lrwxrwxrwx   1 root root          7 Apr 22  2024 bin -> usr/bin
+drwxr-xr-x   2 root root       4096 Feb 26  2024 bin.usr-is-merged
+drwxr-xr-x   3 root root       4096 Mar 15 21:45 boot
+dr-xr-xr-x   2 root root       4096 Feb 10 08:38 cdrom
+drwxr-xr-x  19 root root       4280 Mar 19 12:01 dev
+drwxr-xr-x 140 root root      12288 Mar 19 10:45 etc
+drwxr-xr-x   3 root root       4096 Mar 12 00:42 home
+lrwxrwxrwx   1 root root          7 Apr 22  2024 lib -> usr/lib
+lrwxrwxrwx   1 root root          9 Apr 22  2024 lib64 -> usr/lib64
+drwxr-xr-x   2 root root       4096 Apr  8  2024 lib.usr-is-merged
+drwx------   2 root root      16384 Mar 12 00:39 lost+found
+drwxr-xr-x   3 root root       4096 Mar 12 00:59 media
+drwxr-xr-x   2 root root       4096 Feb 10 07:19 mnt
+drwxr-xr-x   2 root root       4096 Feb 10 07:19 opt
+dr-xr-xr-x 411 root root          0 Mar 19 12:01 proc
+drwx------   5 root root       4096 Mar 12 00:58 root
+drwxr-xr-x  37 root root        920 Mar 19 13:30 run
+lrwxrwxrwx   1 root root          8 Apr 22  2024 sbin -> usr/sbin
+drwxr-xr-x   2 root root       4096 Mar 31  2024 sbin.usr-is-merged
+drwxr-xr-x  18 root root       4096 Mar 15 23:36 snap
+drwxr-xr-x   2 root root       4096 Feb 10 07:19 srv
+-rw-------   1 root root 4054843392 Mar 12 00:42 swap.img
+dr-xr-xr-x  13 root root          0 Mar 19 12:01 sys
+drwxrwxrwt  23 root root       4096 Mar 19 13:44 tmp
+drwxr-xr-x  15 root root       4096 Mar 19 12:17 usr
+drwxr-xr-x  14 root root       4096 Mar 12 00:46 var
+--- /etc ---
+/etc
+adduser.conf
+alsa
+alternatives
+anacrontab
+apg.conf
+apm
+apparmor
+apparmor.d
+apport
+apt
+avahi
+bash.bashrc
+bash_completion
+bash_completion.d
+bindresvport.blacklist
+binfmt.d
+bluetooth
+brlapi.key
+brltty
+brltty.conf
+ca-certificates
+ca-certificates.conf
+chatscripts
+cloud
+colord
+console-setup
+cracklib
+credstore
+credstore.encrypted
+cron.d
+cron.daily
+cron.hourly
+cron.monthly
+crontab
+cron.weekly
+cron.yearly
+cups
+cupshelpers
+dbus-1
+dconf
+debconf.conf
+debian_version
+debuginfod
+default
+deluser.conf
+depmod.d
+dhcp
+dhcpcd.conf
+dictionaries-common
+dpkg
+e2scrub.conf
+emacs
+environment
+environment.d
+ethertypes
+fonts
+fprintd.conf
+fstab
+fuse.conf
+fwupd
+gai.conf
+gdb
+gdm3
+geoclue
+ghostscript
+glvnd
+gnome
+gnome-remote-desktop
+gnutls
+gprofng.rc
+groff
+group
+group-
+grub.d
+gshadow
+gshadow-
+gss
+gtk-2.0
+gtk-3.0
+hdparm.conf
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+hp
+ifplugd
+init
+init.d
+initramfs-tools
+inputrc
+insserv.conf.d
+ipp-usb
+iproute2
+issue
+issue.net
+kernel
+kerneloops.conf
+krb5.conf.d
+ldap
+ld.so.cache
+ld.so.conf
+ld.so.conf.d
+legal
+libao.conf
+libaudit.conf
+libblockdev
+libibverbs.d
+libnl-3
+libpaper.d
+locale.alias
+locale.conf
+locale.gen
+localtime
+logcheck
+login.defs
+logrotate.conf
+logrotate.d
+lsb-release
+machine-id
+magic
+magic.mime
+mailcap
+mailcap.order
+manpath.config
+mime.types
+mke2fs.conf
+ModemManager
+modprobe.d
+modules
+modules-load.d
+mtab
+nanorc
+netconfig
+netplan
+network
+networkd-dispatcher
+NetworkManager
+networks
+newt
+nftables.conf
+nsswitch.conf
+openvpn
+opt
+os-release
+PackageKit
+pam.conf
+pam.d
+papersize
+passwd
+passwd-
+pcmcia
+perl
+pki
+plymouth
+pm
+pnm2ppa.conf
+polkit-1
+ppp
+profile
+profile.d
+protocols
+pulse
+python3
+python3.12
+rc0.d
+rc1.d
+rc2.d
+rc3.d
+rc4.d
+rc5.d
+rc6.d
+rcS.d
+resolv.conf
+rmt
+rpc
+rsyslog.conf
+rsyslog.d
+rygel.conf
+sane.d
+security
+selinux
+sensors3.conf
+sensors.d
+services
+sgml
+shadow
+shadow-
+shells
+skel
+snmp
+speech-dispatcher
+ssh
+ssl
+sssd
+subgid
+subgid-
+subuid
+subuid-
+sudo.conf
+sudoers
+sudoers.d
+sudo_logsrvd.conf
+supercat
+sysctl.conf
+sysctl.d
+sysstat
+systemd
+terminfo
+thermald
+timezone
+tmpfiles.d
+ubuntu-advantage
+ucf.conf
+udev
+udisks2
+ufw
+update-manager
+update-motd.d
+update-notifier
+UPower
+usb_modeswitch.conf
+usb_modeswitch.d
+vconsole.conf
+vim
+vmware-tools
+vtrgb
+vulkan
+wgetrc
+wpa_supplicant
+X11
+xattr.conf
+xdg
+xml
+zsh_command_not_found
+--- /var ---
+/var
+backups
+cache
+crash
+lib
+local
+lock
+log
+mail
+metrics
+opt
+run
+snap
+spool
+tmp
+--- /home ---
+/home
+total 12
+drwxr-xr-x  3 root   root   4096 Mar 12 00:42 .
+drwxr-xr-x 23 root   root   4096 Mar 12 00:42 ..
+drwxr-x--- 21 ratana ratana 4096 Mar 18 23:41 ratana
+--- /home ---
+/tmp
+--- /home ---
+/home/ratana
