@@ -1,0 +1,261 @@
+=== Task 6: Advanced Listing & Directory Audit ===
+--- Recursive Listing (ls -R) ---
+techcorp:
+engineering
+hr
+marketing
+
+techcorp/engineering:
+backend
+devops
+frontend
+
+techcorp/engineering/backend:
+app.js
+database.sql
+pipeline_backup.txt
+server_config.txt
+
+techcorp/engineering/devops:
+docker-compose.yml
+Dockerfile
+pipeline.txt
+security_audit.txt
+server_notice.txt
+
+techcorp/engineering/frontend:
+frontend_config.txt
+index.html
+styles.css
+
+techcorp/hr:
+onboarding
+policies
+
+techcorp/hr/onboarding:
+checklist.txt
+handbook.txt
+leave_policy.txt
+welcome_guide.txt
+
+techcorp/hr/policies:
+leave_policy.txt
+remote_work.txt
+
+techcorp/marketing:
+assets
+campaigns
+
+techcorp/marketing/assets:
+banner.jpg
+brochure.pdf
+logo_brief.txt
+logo.png
+
+techcorp/marketing/campaigns:
+q1_2026_launch.txt
+social_media.txt
+
+--- Sort by Size: engineering/ (ls -lS) ---
+total 4
+-rw-rw-r-- 1 ratana ratana 26 Mar 23 20:39 frontend_config.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 index.html
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 styles.css
+total 8
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 21:53 pipeline_backup.txt
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:39 server_config.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 app.js
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 database.sql
+total 12
+-rw-rw-r-- 1 ratana ratana 48 Mar 23 21:33 server_notice.txt
+-rw-rw-r-- 1 ratana ratana 34 Mar 23 21:53 security_audit.txt
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:40 pipeline.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 docker-compose.yml
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 Dockerfile
+
+--- Sort by Time: techcorp/ (ls -lt) ---
+total 8
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:37 remote_work.txt
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 20:37 leave_policy.txt
+total 12
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 21:44 leave_policy.txt
+-rw-rw-r-- 1 ratana ratana 23 Mar 23 21:33 handbook.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:38 checklist.txt
+-rw-rw-r-- 1 ratana ratana 52 Mar 23 20:38 welcome_guide.txt
+total 8
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:40 q1_2026_launch.txt
+-rw-rw-r-- 1 ratana ratana 35 Mar 23 20:40 social_media.txt
+
+--- Sort by Time: techcorp/ (ls -lt) ---
+total 8
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:37 remote_work.txt
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 20:37 leave_policy.txt
+total 12
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 21:44 leave_policy.txt
+-rw-rw-r-- 1 ratana ratana 23 Mar 23 21:33 handbook.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:38 checklist.txt
+-rw-rw-r-- 1 ratana ratana 52 Mar 23 20:38 welcome_guide.txt
+total 8
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:40 q1_2026_launch.txt
+-rw-rw-r-- 1 ratana ratana 35 Mar 23 20:40 social_media.txt
+
+--- Human-Readable (ls -lh) ---
+total 4.0K
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 banner.jpg
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 brochure.pdf
+-rw-rw-r-- 1 ratana ratana 22 Mar 23 21:33 logo_brief.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 logo.png
+total 12K
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 docker-compose.yml
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 Dockerfile
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:40 pipeline.txt
+-rw-rw-r-- 1 ratana ratana 34 Mar 23 21:53 security_audit.txt
+-rw-rw-r-- 1 ratana ratana 48 Mar 23 21:33 server_notice.txt
+
+--- Reverse Sort by Size (ls -rlS) ---
+total 8
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 database.sql
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 app.js
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:39 server_config.txt
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 21:53 pipeline_backup.txt
+
+--- Reverse Sort by Time (ls -rlt) ---
+total 12
+-rw-rw-r-- 1 ratana ratana 52 Mar 23 20:38 welcome_guide.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:38 checklist.txt
+-rw-rw-r-- 1 ratana ratana 23 Mar 23 21:33 handbook.txt
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 21:44 leave_policy.txt
+
+--- Combined: Recursive + Human-Readable + Sort by Size (ls -lhRS) ---
+techcorp/:
+total 12K
+drwxrwxr-x 5 ratana ratana 4.0K Mar 23 20:36 engineering
+drwxrwxr-x 4 ratana ratana 4.0K Mar 23 20:36 hr
+drwxrwxr-x 4 ratana ratana 4.0K Mar 23 21:33 marketing
+
+techcorp/engineering:
+total 12K
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:53 backend
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:53 devops
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:54 frontend
+
+techcorp/engineering/backend:
+total 8.0K
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 21:53 pipeline_backup.txt
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:39 server_config.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 app.js
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 database.sql
+
+techcorp/engineering/devops:
+total 12K
+-rw-rw-r-- 1 ratana ratana 48 Mar 23 21:33 server_notice.txt
+-rw-rw-r-- 1 ratana ratana 34 Mar 23 21:53 security_audit.txt
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:40 pipeline.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 docker-compose.yml
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 Dockerfile
+
+techcorp/engineering/frontend:
+total 4.0K
+-rw-rw-r-- 1 ratana ratana 26 Mar 23 20:39 frontend_config.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 index.html
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:39 styles.css
+
+techcorp/hr:
+total 8.0K
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:44 onboarding
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:53 policies
+
+techcorp/hr/onboarding:
+total 12K
+-rw-rw-r-- 1 ratana ratana 52 Mar 23 20:38 welcome_guide.txt
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 21:44 leave_policy.txt
+-rw-rw-r-- 1 ratana ratana 23 Mar 23 21:33 handbook.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:38 checklist.txt
+
+techcorp/hr/policies:
+total 8.0K
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 20:37 leave_policy.txt
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:37 remote_work.txt
+
+techcorp/marketing:
+total 8.0K
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:38 assets
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:54 campaigns
+
+techcorp/marketing/assets:
+total 4.0K
+-rw-rw-r-- 1 ratana ratana 22 Mar 23 21:33 logo_brief.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 banner.jpg
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 brochure.pdf
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 logo.png
+
+techcorp/marketing/campaigns:
+total 8.0K
+-rw-rw-r-- 1 ratana ratana 35 Mar 23 20:40 social_media.txt
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:40 q1_2026_launch.txt
+
+--- Challenge Investigation ---
+6a. Most recently modified file in hr/onboarding:
+total 12
+-rw-rw-r-- 1 ratana ratana 39 Mar 23 21:44 leave_policy.txt
+-rw-rw-r-- 1 ratana ratana 23 Mar 23 21:33 handbook.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:38 checklist.txt
+-rw-rw-r-- 1 ratana ratana 52 Mar 23 20:38 welcome_guide.txt
+
+6b. Recursive listing with human-readable sizes (marketing):
+techcorp/marketing/:
+total 8.0K
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:38 assets
+drwxrwxr-x 2 ratana ratana 4.0K Mar 23 21:54 campaigns
+
+techcorp/marketing/assets:
+total 4.0K
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 banner.jpg
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 brochure.pdf
+-rw-rw-r-- 1 ratana ratana 22 Mar 23 21:33 logo_brief.txt
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:41 logo.png
+
+techcorp/marketing/campaigns:
+total 8.0K
+-rw-rw-r-- 1 ratana ratana 32 Mar 23 20:40 q1_2026_launch.txt
+-rw-rw-r-- 1 ratana ratana 35 Mar 23 20:40 social_media.txt
+
+6c. Smallest files first in devops:
+total 12
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 Dockerfile
+-rw-rw-r-- 1 ratana ratana  0 Mar 23 20:40 docker-compose.yml
+-rw-rw-r-- 1 ratana ratana 29 Mar 23 20:40 pipeline.txt
+-rw-rw-r-- 1 ratana ratana 34 Mar 23 21:53 security_audit.txt
+-rw-rw-r-- 1 ratana ratana 48 Mar 23 21:33 server_notice.txt
+
+6d. Hidden files in home directory sorted by size:
+total 128K
+-rw-------  1 ratana ratana  17K Mar 23 22:08 .bash_history
+drwxr-x--- 21 ratana ratana 4.0K Mar 18 23:41 .
+drwxr-xr-x  3 root   root   4.0K Mar 12 00:42 ..
+drwx------ 13 ratana ratana 4.0K Mar 19 10:52 .cache
+drwx------ 18 ratana ratana 4.0K Mar 17 14:45 .config
+drwxr-xr-x  2 ratana ratana 4.0K Mar 12 13:16 Desktop
+drwxr-xr-x  3 ratana ratana 4.0K Mar 15 23:44 Documents
+drwxrwxr-x  3 ratana ratana 4.0K Mar 15 23:38 .dotnet
+drwxr-xr-x  3 ratana ratana 4.0K Mar 15 22:01 Downloads
+drwxrwxr-x  8 ratana ratana 4.0K Mar 17 12:10 .git
+drwx------  2 ratana ratana 4.0K Mar 15 01:34 .gnupg
+drwx------  4 ratana ratana 4.0K Mar 12 00:46 .local
+drwxr-xr-x  2 ratana ratana 4.0K Mar 12 00:46 Music
+drwxrwxr-x  5 ratana ratana 4.0K Mar 19 10:25 os-se-p20240047
+drwxr-xr-x  3 ratana ratana 4.0K Mar 12 00:55 Pictures
+drwx------  3 ratana ratana 4.0K Mar 15 23:37 .pki
+drwxr-xr-x  2 ratana ratana 4.0K Mar 12 00:46 Public
+drwx------  8 ratana ratana 4.0K Mar 15 23:37 snap
+drwx------  2 ratana ratana 4.0K Mar 17 13:23 .ssh
+drwxr-xr-x  2 ratana ratana 4.0K Mar 12 00:46 Templates
+drwxr-xr-x  2 ratana ratana 4.0K Mar 12 00:46 Videos
+drwxrwxr-x  4 ratana ratana 4.0K Mar 15 23:37 .vscode
+-rw-r--r--  1 ratana ratana 3.7K Mar 31  2024 .bashrc
+-rw-r--r--  1 ratana ratana  807 Mar 31  2024 .profile
+-rw-------  1 ratana ratana  532 Mar 12 15:06 .viminfo
+-rw-r--r--  1 ratana ratana  220 Mar 31  2024 .bash_logout
+-rw-rw-r--  1 ratana ratana   58 Mar 14 23:57 .gitconfig
+-rw-------  1 ratana ratana   20 Mar 18 23:41 .lesshst
+-rw-r--r--  1 ratana ratana    0 Mar 12 00:47 .sudo_as_admin_successful
