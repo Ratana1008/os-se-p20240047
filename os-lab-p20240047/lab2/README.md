@@ -29,7 +29,7 @@ The screenshots below focus on the **Challenge sections** and **command history*
 Show the terminal where you ran your own `cd` commands for challenges **8a–8e** (navigating with relative paths, absolute paths, `..`, and `cd -`). This should show both the commands you typed and the `pwd` output after each navigation.
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task4_challenge.png)
+![alt text](../lab2/images/Lab2_challengeTask4.png)
 
 ---
 
@@ -42,7 +42,7 @@ history | grep -E "cd |pwd"
 ```
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task4_history.png)
+![alt text](../lab2/images/Lab2_HistoryCommandTask4.png)
 
 ---
 
@@ -51,7 +51,7 @@ history | grep -E "cd |pwd"
 Show the terminal where you ran your own `mv`, `cp`, `rm`, and rename commands for challenges **9a–9d** (moving, copying, deleting, and renaming files). This should show both the commands you typed and the `ls` output confirming each action.
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task5_challenge.png)
+![alt text](../lab2/images/Lab2_task5Challenge.png)
 
 ---
 
@@ -64,7 +64,7 @@ history | grep -E "mv |cp |rm |touch |echo "
 ```
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task5_history.png)
+![alt text](../lab2/images/Lab2_HistoryTask5.png)
 
 ---
 
@@ -73,7 +73,7 @@ history | grep -E "mv |cp |rm |touch |echo "
 Show the terminal where you ran your own `ls` flag combinations for challenges **6a–6d** (sorting by time, recursive human-readable listing, reverse size sort, and hidden files). This should show both the `ls` commands you chose and their output.
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task6_challenge.png)
+![alt text](../lab2/images/Lab2task6Challenge.png)
 
 ---
 
@@ -86,7 +86,7 @@ history | grep "ls "
 ```
 
 <!-- Insert your screenshot below: -->
-![alt text](images/task6_history.png)
+![alt text](../lab2/images/Lab2Challengetask6History.png)
 
 ---
 
@@ -99,4 +99,4 @@ history | tail -n 50
 ```
 
 <!-- Insert your screenshot below: -->
-![alt text](images/full_history.png)
+![alt text](../lab2/images/FullCommandHistory.png)
