@@ -214,7 +214,9 @@ Screenshot of running `copyfilesyscall.c` on Linux:
 
 ## Task 4: Exploring OS Structure
 
+### System Information
 
+> 📸 Screenshot of `uname -a`, `/proc/cpuinfo`:
 ![System Info](screenshots/Activity1_Task4_PartA.png)
 > 📸 Screenshot of  `/proc/meminfo`:
 ![System Info](screenshots/Task4_PartB_1.png)
