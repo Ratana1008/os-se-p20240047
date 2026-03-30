@@ -125,3 +125,40 @@ report03.txt
 report10.txt
 settings.json
 summary.txt
+--- Challenge Wildcards ---
+--- 1b: image?.* files ---
+image1.png
+image2.png
+image3.jpg
+image4.jpg
+--- 1c: memo files created ---
+memo_fri.txt
+memo_mon.txt
+memo_thu.txt
+memo_tue.txt
+memo_wed.txt
+--- 1d: after removing .log files ---
+backup1.tar.gz
+backup2.tar.gz
+config.yaml
+config.yml
+data01.csv
+data02.csv
+data03.csv
+image1.png
+image2.png
+image3.jpg
+image4.jpg
+memo_fri.txt
+memo_mon.txt
+memo_thu.txt
+memo_tue.txt
+memo_wed.txt
+notes.txt
+readme.txt
+report01.txt
+report02.txt
+report03.txt
+report10.txt
+settings.json
+summary.txt

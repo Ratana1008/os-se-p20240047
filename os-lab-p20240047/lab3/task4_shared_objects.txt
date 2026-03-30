@@ -1,0 +1,9 @@
+--- Task 4: Shared Objects Challenge ---
+
+--- Shared libraries loaded by current shell ---
+/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+/usr/lib/x86_64-linux-gnu/libc.so.6
+/usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+
+Explanation:
+Shared libraries (.so files) are dynamically loaded into memory when a program runs. They allow multiple programs to reuse the same code, reducing memory usage and improving efficiency. The /proc/[pid]/maps file shows memory regions of a process, including loaded shared libraries.

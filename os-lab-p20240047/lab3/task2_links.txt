@@ -94,3 +94,21 @@ Shared resource across departments
 Link count after deletion:
 661443 -rw-rw-r-- 2 ratana ratana 35 Mar 24 14:11 links_lab/eng_data.txt
 661443 -rw-rw-r-- 2 ratana ratana 35 Mar 24 14:11 links_lab/hr_data.txt
+--- Challenge Links ---
+--- 2a: inode check for hard links ---
+919134 -rw-rw-r-- 1 ratana ratana 35 Mar 24 16:25 eng_data.txt
+919135 -rw-rw-r-- 1 ratana ratana 35 Mar 24 16:25 hr_data.txt
+938937 -rw-rw-r-- 1 ratana ratana 35 Mar 30 23:32 shared_data.txt
+
+--- 2b: symlink test ---
+frontend
+index.html
+
+--- 2c: after deleting original ---
+HR file:
+Shared resource across departments
+ENG file:
+Shared resource across departments
+inode check:
+919134 -rw-rw-r-- 1 ratana ratana 35 Mar 24 16:25 eng_data.txt
+919135 -rw-rw-r-- 1 ratana ratana 35 Mar 24 16:25 hr_data.txt
