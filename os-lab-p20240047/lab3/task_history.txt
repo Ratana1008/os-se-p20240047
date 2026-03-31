@@ -1,0 +1,101 @@
+=== Full Command History ===
+const char* tc_get_hostname(void);
+const char* tc_get_uptime(void);
+int tc_get_cpu_count(void);
+
+// NEW — Returns total memory in MB
+long tc_get_memory_mb(void);
+
+#endif
+EOF
+
+  507  cat > techcorp_memory.c << 'EOF'
+#include "techcorp_sysinfo.h"
+#include <stdio.h>
+
+long tc_get_memory_mb(void) {
+    FILE *fp = fopen("/proc/meminfo", "r");
+    if (fp) {
+        long mem_kb = 0;
+        if (fscanf(fp, "MemTotal: %ld kB", &mem_kb) == 1) {
+            fclose(fp);
+            return mem_kb / 1024;
+        }
+        fclose(fp);
+    }
+    return -1;
+}
+EOF
+
+  508  gcc -fPIC -c techcorp_sysinfo.c -o techcorp_sysinfo.o
+  509  gcc -fPIC -c techcorp_memory.c -o techcorp_memory.o
+  510  gcc -shared -o libtechcorp_sysinfo.so techcorp_sysinfo.o techcorp_memory.o
+  511  echo "" >> ../task5_shared_library.txt
+  512  echo "--- Phase 4: Partner B recompiled library with new function ---" >> ../task5_shared_library.txt
+  513  file libtechcorp_sysinfo.so >> ../task5_shared_library.txt
+  514  ls
+  515  gcc -fPIC -c techcorp_sysinfo.c -o techcorp_sysinfo.o
+  516  gcc -fPIC -c techcorp_memory.c -o techcorp_memory.o
+  517  gcc -shared -o libtechcorp_sysinfo.so techcorp_sysinfo.o techcorp_memory.o
+  518  echo "" >> ../task5_shared_library.txt
+  519  echo "--- Phase 4: Partner B recompiled library with new function ---" >> ../task5_shared_library.txt
+  520  file libtechcorp_sysinfo.so >> ../task5_shared_library.txt
+  521  gcc sysinfo_test_v2.c -L. -ltechcorp_sysinfo -o sysinfo_test_v2
+  522  echo "" >> ../task5_shared_library.txt
+  523  echo "--- Phase 4: v2 test run ---" >> ../task5_shared_library.txt
+  524  LD_LIBRARY_PATH=. ./sysinfo_test_v2 >> ../task5_shared_library.txt
+  525  # Copy the library to the system library directory
+  526  sudo cp libtechcorp_sysinfo.so /usr/local/lib/
+  527  # Refresh the shared library cache
+  528  sudo ldconfig
+  529  # Verify it is registered
+  530  echo "" >> ../task5_shared_library.txt
+  531  echo "--- System-wide install: ldconfig cache ---" >> ../task5_shared_library.txt
+  532  ldconfig -p | grep techcorp >> ../task5_shared_library.txt
+  533  # Re-test WITHOUT LD_LIBRARY_PATH
+  534  echo "" >> ../task5_shared_library.txt
+  535  echo "--- System-wide test (no LD_LIBRARY_PATH) ---" >> ../task5_shared_library.txt
+  536  ldd ./sysinfo_test_v2 >> ../task5_shared_library.txt 2>&1
+  537  ./sysinfo_test_v2 >> ../task5_shared_library.txt
+  538  sudo rm /usr/local/lib/libtechcorp_sysinfo.so
+  539  sudo ldconfig
+  540  echo "" >> ../task5_shared_library.txt
+  541  echo "--- Pair Information ---" >> ../task5_shared_library.txt
+  542  echo "Role A (Library Author → v2 Tester): HAI Monyoudom - <p20240002" >> ../task5_shared_library.txt
+  543  echo "Role B (Test Author → v2 Library Extender): PAV Ratana - p20240047" >> ../task5_shared_library.txt
+  544  cd ..
+  545  sudo cp libtechcorp_sysinfo.so /usr/local/lib/
+  546  sudo ldconfig
+  547  ldconfig -p | grep techcorp
+  548  ldd ./sysinfo_test_v2
+  549  ./sysinfo_test_v2
+  550  cd shared_lib_lab/
+  551  ./sysinfo_test_v2
+  552  ldconfig -p | grep techcorp
+  553  ldd ./sysinfo_test_v2
+  554  ./sysinfo_test_v2
+  555  cd ..
+  556  sudo cp libtechcorp_sysinfo.so /usr/local/lib/
+  557  sudo ldconfig
+  558  ls *.so
+  559  ldconfig -p | grep techcorp
+  560  ldd ./sysinfo_test_v2
+  561  gcc -fPIC -c techcorp_sysinfo.c -o techcorp_sysinfo.o
+  562  gcc -fPIC -c techcorp_memory.c -o techcorp_memory.o
+  563  gcc -shared -o libtechcorp_sysinfo.so techcorp_sysinfo.o techcorp_memory.o
+  564  cd shared_lib_lab/
+  565  ls *.so
+  566  sudo cp libtechcorp_sysinfo.so /usr/local/lib/
+  567  sudo ldconfig
+  568  ldconfig -p | grep techcorp
+  569  ldd ./sysinfo_test_v2
+  570  ./sysinfo_test_v2
+  571  ldd ./sysinfo_test_v2
+  572  ./sysinfo_test_v2
+  573  cat techcorp_sysinfo.h >> ../task5_shared_library.txt
+  574  cat
+  575  cat techcorp_sysinfo.h
+  576  cd ..
+  577  history | tail -n 100
+  578  echo "=== Full Command History ===" > task_history.txt
+  579  history | tail -n 100 >> task_history.txt
