@@ -67,7 +67,7 @@ Show the modified `/etc/default/grub` with `GRUB_TIMEOUT=10` and the cleared `GR
 Show the GRUB menu displaying your custom "TechCorp Training VM — Boot Standard" entry.
 
 <!-- Insert your screenshot below: -->
-![Task 3 Custom Entry](images/task3_custom_entry.png)
+![Task 3 Custom Entry](images/task3_custom.png)
 
 ---
 
@@ -112,7 +112,7 @@ Show the manual GRUB commands you typed (`set root`, `linux`, `initrd`, `boot`) 
 Show the output of `ls -la /boot/grub/grub.cfg` and `head -5 /boot/grub/grub.cfg` confirming the configuration was restored, plus `uname -r` and `uptime` after normal boot.
 
 <!-- Insert your screenshot below: -->
-![Task 3 Restored](images/task3_restored.png)
+![Task 3 Restored](images/task3_restord.png)
 
 ---
 
