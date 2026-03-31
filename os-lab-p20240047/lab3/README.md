@@ -139,7 +139,7 @@ Show the terminal where you ran your shared objects challenge commands **4a–4d
 Show **both partners' screens** with the agreed header file (`techcorp_sysinfo.h`) open, proving the API was designed collaboratively.
 
 <!-- Insert your screenshot below: -->
-![Task 5 Pair Design](images/task5_pair_design.png)
+![Task 5 Pair Design](images/task5_pair_design.jpg)
 
 ---
 
@@ -148,7 +148,7 @@ Show **both partners' screens** with the agreed header file (`techcorp_sysinfo.h
 Show the final integration test: `ldconfig -p | grep techcorp` showing registration, `ldd ./sysinfo_test_v2` showing the library is resolved, and the v2 test program output displaying hostname, uptime, CPU cores, and memory.
 
 <!-- Insert your screenshot below: -->
-![Task 5 Pair Integration](images/task5_pair_integration.png)
+![Task 5 Pair Integration](images/task5_pair_integration.jpg)
 
 ---
 
