@@ -1,0 +1,20 @@
+  861  git pull origin main
+  862  cd os-class-activities-p20240047/activity2/task2
+  863  ls
+  864  cd ..
+  865  cd task3_shm/
+  866  code .
+  867  nano shm-producer.c
+  868  gcc -o shm-producer shm-producer.c -lrt
+  869  gcc -o shm-consumer shm-consumer.c -lrt
+  870  ls -la
+  871  nano shm-producer.c
+  872  gcc -o shm-consumer shm-consumer.c -lrt
+  873  nano shm-producer.c
+  874  nano shm-consumer.c
+  875  gcc -o shm-producer shm-producer.c -lrt
+  876  gcc -o shm-consumer shm-consumer.c -lrt
+  877  ./shm-producer
+  878  ./shm-consumer > result-shm-ipc.txt
+  879  cat result-shm-ipc.txt
+  880  history | tail -n 20 > command_used_shm.txt
