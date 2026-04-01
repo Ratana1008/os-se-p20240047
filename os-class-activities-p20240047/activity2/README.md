@@ -56,17 +56,17 @@ Screenshot of the parent-child process tree (using `ps --forest`, `pstree`, or `
 
 Screenshot of compiling and running `winprocess.c`:
 
-![Task 2 - Compile & Run](screenshots/task2_compile_run.png)
+![Task 2 - Compile & Run](screenshots/task2_compile_run.jpg)
 
 ### Task Manager Screenshots
 
 Screenshot showing process tree in the **Processes** tab (mspaint nested under your program):
 
-![Task 2 - Task Manager Tree](screenshots/task2_taskmanager_tree.png)
+![Task 2 - Task Manager Tree](screenshots/task2_taskmanager_tree.jpg)
 
 Screenshot showing PID and Parent PID in the **Details** tab:
 
-![Task 2 - Task Manager Details](screenshots/task2_taskmanager_details.png)
+![Task 2 - Task Manager Details](screenshots/task2_taskmanager_details.jpg)
 
 ### Questions
 
