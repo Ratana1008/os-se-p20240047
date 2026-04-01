@@ -1,0 +1,10 @@
+total 32
+drwxrwxr-x 2 ratana ratana  4096 Apr  1 12:33 .
+drwxrwxr-x 7 ratana ratana  4096 Apr  1 12:26 ..
+-rwxrwxr-x 1 ratana ratana 16400 Apr  1 12:33 forkchild
+-rw-rw-r-- 1 ratana ratana  1022 Apr  1 12:31 forkchild.c
+-rw-rw-r-- 1 ratana ratana     0 Apr  1 12:42 result_forkchild.txt
+Parent process (PID: 7382) — creating child...
+Parent: waiting for child (PID: 7384) to finish...
+Parent: child exited with status 0
+Parent: done.
