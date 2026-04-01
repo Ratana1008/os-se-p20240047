@@ -1,0 +1,21 @@
+=== Task 2: Pipelines & Filters ===
+--- Number of entries in /etc ---
+235
+--- Pipeline with tee ---
+20
+(also saved to etc_snapshot.txt)
+--- Uppercase to lowercase ---
+hello world from techcorp
+--- Remove duplicate spaces ---
+too many spaces here
+--- Challenge Pipelines ---
+--- 2a: Directory count in /etc ---
+141
+--- 2b: Last 5 usernames ---
+usbmux
+uucp
+uuidd
+whoopsie
+www-data
+--- 2c: Count of .conf files ---
+339
