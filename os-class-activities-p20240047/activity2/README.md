@@ -20,11 +20,6 @@ Screenshot of the parent-child process tree (using `ps --forest`, `pstree`, or `
 
 ![Task 1 - Process Tree](screenshots/task1_process_tree.png)
 
-### Output
-
-```
-[Paste the content of result_forkchild.txt here]
-```
 
 ### Questions
 
