@@ -1,0 +1,7 @@
+=== Task 5: Orphan & Zombie Processes ===
+--- Orphan process observation ---
+Child PID: <FILL_IN>, Original PPID: <FILL_IN>, New PPID after parent exit: 1
+--- 5a: zombie_fixed observation ---
+Zombie disappeared after parent called wait() at 10 seconds.
+--- 5b: Three children tree ---
+Parent created 3 children (PIDs noted in screenshot). All waited on with wait().

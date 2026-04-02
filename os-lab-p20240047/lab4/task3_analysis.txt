@@ -82,8 +82,6 @@ Total bytes: 0
 192.168.1.10
 192.168.1.20
 192.168.1.30
---- Status code summary ---
-     10 
 --- Users with /bin/bash shell ---
 root
 ratana
@@ -92,12 +90,9 @@ System users: 47
 --- Number of regular users (UID >= 1000) ---
 Regular users: 2
 --- Challenge Data Analysis ---
---- 3a: 403 requests - IP and URL ---
 10.0.0.5 403
---- 3b: Users per shell ---
      39 /usr/sbin/nologin
       7 /bin/false
       2 /bin/bash
       1 /bin/sync
---- 3c: IP with most requests ---
       3 192.168.1.20
