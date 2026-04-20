@@ -1,0 +1,20 @@
+ 1140  javac --version
+ 1141  cd ..
+ 1142  mkdir -p os-class-activities-p20240047/activity3/{task1_socket,task2_threads,task3_java,screenshots}
+ 1143  cd os-class-activities-p20240047/activity3
+ 1144  cd task1_socket
+ 1145  nano server.c
+ 1146  nano client.c
+ 1147  $ gcc -o server server.c
+ 1148  $ gcc -o client client.c
+ 1149  gcc -o server server.c
+ 1150  gcc -o client client.c
+ 1151  ./server
+ 1152  # Run server in background, then client
+ 1153  ./server > result_server.txt 2>&1 &
+ 1154  sleep 1
+ 1155  ./client > result_client.txt 2>&1
+ 1156  wait
+ 1157  cat result_server.txt result_client.txt > result_socket.txt
+ 1158  cat result_socket.txt   # verify output
+ 1159  history | tail -n 20 > command_used_socket.txt
