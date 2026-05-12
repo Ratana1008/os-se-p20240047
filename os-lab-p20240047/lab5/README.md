@@ -25,49 +25,49 @@ Insert your screenshots below.
 ### Screenshot 1 — Task 1: Process vs Thread (Process Test)
 Show the output of `process_test.c`.
 <!-- Insert your screenshot below: -->
-![process vs thread 1](images/process_vs_thread_1.png)
+![process vs thread 1](screenshots/process_vs_thread_1.png)
 
 ---
 
 ### Screenshot 2 — Task 1: Process vs Thread (Thread Test)
 Show the output of `thread_test.c`.
 <!-- Insert your screenshot below: -->
-![process vs thread 2](images/process_vs_thread_2.png)
+![process vs thread 2](screenshots/process_vs_thread_2.png)
 
 ---
 
 ### Screenshot 3 — Task 2: Thread Interaction
 Show the output of `multi_thread.c`.
 <!-- Insert your screenshot below: -->
-![thread interaction](images/thread_interaction.png)
+![thread interaction](screenshots/thread_interaction.png)
 
 ---
 
 ### Screenshot 4 — Task 3: Visualizing 1:1 Thread Mapping
 Show the `ps -eLf` output or `/proc/[pid]/task/` directory visualizing the LWP mapping for user threads.
 <!-- Insert your screenshot below: -->
-![user to kernel mapping](images/user_kernel_mapping.png)
+![user to kernel mapping](screenshots/user_kernal_mapping.png)
 
 ---
 
 ### Screenshot 5 — Task 3: `htop` Kernel Threads
 Show `htop` visualizing kernel threads (usually bracketed names like `[kworker]`).
 <!-- Insert your screenshot below: -->
-![htop kernel threads](images/htop_kernel_threads.png)
+![htop kernel threads](screenshots/htop_kernel_thread.png)
 
 ---
 
 ### Screenshot 6 — Task 4: Catching `SIGINT`
 Show the output of your `signal_handler` program gracefully catching `Ctrl+C`.
 <!-- Insert your screenshot below: -->
-![signal handling](images/signal_sigint.png)
+![signal handling](screenshots/signal_sigint.png)
 
 ---
 
 ### Screenshot 7 — Challenge: Graceful Multithreaded Shutdown
 Show the output of your `challenge.c` program joining its threads and exiting gracefully after receiving `Ctrl+C`.
 <!-- Insert your screenshot below: -->
-![challenge shutdown](images/challenge_shutdown.png)
+![challenge shutdown](screenshots/challenge_shutdown.png)
 
 ---
 
