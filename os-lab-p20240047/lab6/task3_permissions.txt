@@ -1,0 +1,1 @@
+drwxrwx--- 2 root devteam 4096 May 25 22:43 /opt/techcorp/devproject
