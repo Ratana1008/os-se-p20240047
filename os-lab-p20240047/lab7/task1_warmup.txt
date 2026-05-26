@@ -1,0 +1,5 @@
+=== warmup permissions ===
+-rwxrwxr-x 1 se-pav-ratana se-pav-ratana 77 May 26 13:57 /home/se-pav-ratana/bin/warmup
+=== warmup output ===
+Hello from my first script! My current directory is:
+/home/se-pav-ratana/bin

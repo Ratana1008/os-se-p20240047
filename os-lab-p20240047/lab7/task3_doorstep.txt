@@ -1,0 +1,6 @@
+========================================
+Welcome, se-pav-ratana
+Users currently logged in: 18
+Server uptime: up 21 hours, 41 minutes
+Random tech quote: There is no place like 127.0.0.1.
+========================================

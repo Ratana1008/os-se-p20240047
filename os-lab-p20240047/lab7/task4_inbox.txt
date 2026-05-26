@@ -1,0 +1,5 @@
+=== inbox permissions ===
+drwx-wx-wx 2 se-pav-ratana se-pav-ratana 4096 May 26 14:22 /home/se-pav-ratana/public_inbox
+=== inbox files as owner ===
+total 0
+-rw-rw-r-- 1 se-hai-monyoudom se-hai-monyoudom 0 May 26 14:22 hello_from_dom.txt

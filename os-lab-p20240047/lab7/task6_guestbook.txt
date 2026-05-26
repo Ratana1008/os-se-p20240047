@@ -1,0 +1,6 @@
+=== guestbook permissions ===
+-rw------- 1 se-pav-ratana se-pav-ratana 32 May 26 14:31 /home/se-pav-ratana/guestbook.txt
+=== sign_book permissions ===
+-rwsr-xr-x 1 se-pav-ratana se-pav-ratana 16096 May 26 14:29 /home/se-pav-ratana/bin/sign_book
+=== guestbook contents ===
+Visitor signed: Hello from mony
