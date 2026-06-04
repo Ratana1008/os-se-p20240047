@@ -1,0 +1,8 @@
+Run 1 final inventory: 48
+Run 2 final inventory: 56
+Run 3 final inventory: 62
+Run 4 final inventory: 44
+Run 5 final inventory: 52
+
+Explanation:
+The inventory value changes because multiple buy_widget processes access the shared inventory file at the same time. Several processes may read the same inventory value before another process writes an update. Since process scheduling is nondeterministic, different runs can produce different final inventory values.
