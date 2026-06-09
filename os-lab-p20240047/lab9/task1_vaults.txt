@@ -1,0 +1,11 @@
+=== working folder ===
+/home/se-pav-ratana/os-lab-deadlock
+=== vault directories ===
+drwxrwxr-x 2 se-pav-ratana se-pav-ratana 4096 Jun  9 13:43 /home/se-pav-ratana/os-lab-deadlock/vault_alpha
+drwxrwxr-x 2 se-pav-ratana se-pav-ratana 4096 Jun  9 13:43 /home/se-pav-ratana/os-lab-deadlock/vault_beta
+=== vault lock files ===
+-rw-rw-r-- 1 se-pav-ratana se-pav-ratana 0 Jun  9 13:42 /home/se-pav-ratana/os-lab-deadlock/vault_alpha/vault.lock
+-rw-rw-r-- 1 se-pav-ratana se-pav-ratana 0 Jun  9 13:42 /home/se-pav-ratana/os-lab-deadlock/vault_beta/vault.lock
+=== vault marker files ===
+Vault Alpha local resource for p20240047
+Vault Beta local resource for p20240047
