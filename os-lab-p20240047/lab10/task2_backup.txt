@@ -1,0 +1,71 @@
+=== backup script permissions ===
+-rwxrwxr-x 1 se-pav-ratana se-pav-ratana 792 Jun 16 13:25 /home/se-pav-ratana/bin/backup_project
+=== archives kept (should be 3) ===
+/home/se-pav-ratana/os-lab-automation/backups/project_20260616_132629.tar.gz
+/home/se-pav-ratana/os-lab-automation/backups/project_20260616_132628.tar.gz
+/home/se-pav-ratana/os-lab-automation/backups/project_20260616_132627.tar.gz
+=== backup log ===
+2026-06-16 13:25:59 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:25:59 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132559.tar.gz
+2026-06-16 13:25:59 | no old archives to prune
+2026-06-16 13:25:59 | backup finished successfully
+2026-06-16 13:26:00 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:00 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132600.tar.gz
+2026-06-16 13:26:00 | no old archives to prune
+2026-06-16 13:26:00 | backup finished successfully
+2026-06-16 13:26:01 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:01 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132601.tar.gz
+2026-06-16 13:26:01 | no old archives to prune
+2026-06-16 13:26:01 | backup finished successfully
+2026-06-16 13:26:02 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:02 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132602.tar.gz
+2026-06-16 13:26:02 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132559.tar.gz
+2026-06-16 13:26:02 | backup finished successfully
+2026-06-16 13:26:13 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:13 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132613.tar.gz
+2026-06-16 13:26:13 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132600.tar.gz
+2026-06-16 13:26:13 | backup finished successfully
+2026-06-16 13:26:14 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:14 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132614.tar.gz
+2026-06-16 13:26:14 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132601.tar.gz
+2026-06-16 13:26:14 | backup finished successfully
+2026-06-16 13:26:15 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:15 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132615.tar.gz
+2026-06-16 13:26:15 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132602.tar.gz
+2026-06-16 13:26:15 | backup finished successfully
+2026-06-16 13:26:16 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:16 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132616.tar.gz
+2026-06-16 13:26:16 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132613.tar.gz
+2026-06-16 13:26:16 | backup finished successfully
+2026-06-16 13:26:19 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:19 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132619.tar.gz
+2026-06-16 13:26:19 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132614.tar.gz
+2026-06-16 13:26:19 | backup finished successfully
+2026-06-16 13:26:20 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:20 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132620.tar.gz
+2026-06-16 13:26:20 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132615.tar.gz
+2026-06-16 13:26:20 | backup finished successfully
+2026-06-16 13:26:21 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:21 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132621.tar.gz
+2026-06-16 13:26:21 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132616.tar.gz
+2026-06-16 13:26:21 | backup finished successfully
+2026-06-16 13:26:22 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:22 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132622.tar.gz
+2026-06-16 13:26:22 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132619.tar.gz
+2026-06-16 13:26:22 | backup finished successfully
+2026-06-16 13:26:25 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:25 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132625.tar.gz
+2026-06-16 13:26:26 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132620.tar.gz
+2026-06-16 13:26:26 | backup finished successfully
+2026-06-16 13:26:27 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:27 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132627.tar.gz
+2026-06-16 13:26:27 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132621.tar.gz
+2026-06-16 13:26:27 | backup finished successfully
+2026-06-16 13:26:28 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:28 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132628.tar.gz
+2026-06-16 13:26:28 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132622.tar.gz
+2026-06-16 13:26:28 | backup finished successfully
+2026-06-16 13:26:29 | starting backup of /home/se-pav-ratana/os-lab-automation/project
+2026-06-16 13:26:29 | created archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132629.tar.gz
+2026-06-16 13:26:29 | pruned old archive /home/se-pav-ratana/os-lab-automation/backups/project_20260616_132625.tar.gz
+2026-06-16 13:26:29 | backup finished successfully
