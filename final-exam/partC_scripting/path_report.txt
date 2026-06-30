@@ -1,0 +1,2 @@
+/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/home/se-pav-ratana/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+/home/se-pav-ratana/bin/greeter
